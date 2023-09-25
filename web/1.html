@@ -1,0 +1,28 @@
+<!doctype html> <!--"이 문서는 html"이라는 관용적 표현-->
+<html> <!--<head>와 <body>를 감싸는 단 하나의 최고위층 태그-->
+<head> <!--바디를 설명하는 태그는 <head></head>태그로 묶기로 약속-->
+<title>WEB1 - html</title> <!--<title></title>태그는 웹페이지의 제목을 사용자에게 명시적으로 알려줄 수 있고, 책 표지와 같은 역할을 함-->
+<meta charset="utf-8"> <!--"utf-8로 문서를 읽어라"/ utf-8로 하면 글자가 깨지지 않고 출력됨-->
+</head>
+<body> <!--본문은 항상 <body></body>태그로 묶기로 약속-->
+<h1><a href="index.html">WEB</a></h1>
+<ol> <!--<ul></ul>(='Ordered List'의 약자)는 경계를 짓기 위한(그룹핑을 하기 위한 <li>의 부모 태그) /<li>태그는 반드시 부모 태그를 갖고 있다 /<ul>태그는 반드시 자식 태그를 갖고 있다.-->
+    <li><a href="1.html">HTML</a></li>
+    <li><a href="2.html">CSS</a></li>
+    <li><a href="3.html">JavaScript</a></li>
+</ol> <!--<ol></ol>태그(='Unordered List'의 약자)는 숫자를 자동으로 넘버링 해줌(추가 혹은 삭제할때 매우 용이함)-->
+<h2>HTML</h2>  <!-- h1~h6까지는 제목을 나타내는 태그 -->
+<p><a href="https://www.w3.org/TR/2011/WD-html5-20110405/" target="blank" title="html5 speicification">Hypertext Markup Language (HTML)</a> is the standard markup language for <strong>creating <u>web</u> pages</strong> applications.
+<!--글씨 굵게 만드는 법: <strong>강조하고 싶은 글귀</strong> => 열리는 태그와 닫히는 태그(TAG)
+ 밑줄 치는 방법: <u>밑줄 치고 싶은 단어</u> -->
+ <!--<a href="링크주소"></a>태그는 원하는 문장에 링크를 걸고 싶을때 사용/ targer="blank"는 새탭 열기/ title="html5 speicification"는 링크 위에 마우스 커서를 올려놓으면 주소가 뜸-->
+ Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+ <img src="coding.jpg"width="100%"> 
+ <!--<img src"이미지 이름" width="100%(원하는 이미지사진 크기)" => 속성이라고 함 --> 
+</p><p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.</p>
+</body>
+</html>
+<!--<br>: 줄바꿈 태그(두번 사용하면 단락 구분, 세번 사용하면 여백을 강조할 수 있음, 그 이상도 사용가능), 닫힘 태그가 필요 없음 -->
+<!--<p>단락</p>: 단락 구분 태그=> 단락을 구분하는 경우 <br>보다 <p> 태그를 사용하는 것이 올바름/ "내가 선택한 저만큼이 단락이다" 라는 것을 의미론적으로 표현 가능하기 때문 -->
+<!--<br>은 내가 원하는 여백만큼 여러번 써서 사용하는 것이 가능하지만, <p>는 정해져 있는 여백공간이 있기 때문에 자유도가 떨어짐 -->
+
